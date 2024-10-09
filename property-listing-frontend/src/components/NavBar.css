@@ -1,0 +1,146 @@
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.navbar-links li {
+    display: inline; /* Make links inline */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navbar-links a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.search-form {
+    display: flex; /* Align search bar and button */
+}
+
+.search-input {
+    padding: none;
+    border: none;
+    border-radius: 4px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px; 
+}
+
+.search-button:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px; /* Reduced padding for a narrower navbar */
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and links */
+    align-items: center;
+    width: 100%; /* Full width for navbar */
+}
+
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em; /* Reduced font size */
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.navbar-links li {
+    display: inline; /* Make links inline */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Padding for links */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navbar-links a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.search-form {
+    display: flex; /* Align search bar and button in a row */
+    justify-content: center; /* Center search input in navbar */
+    flex-grow: 1; /* Allow search form to grow */
+    max-width: 600px; /* Set max width for search form */
+    margin: 0 auto; /* Center the search form */
+    padding: 4px 20px;
+}
+
+.search-input {
+    padding: none; /* Padding for input */
+    border: none;
+    border-radius: 4px;
+    width: 100%; /* Make input take full width */
+    height: 2px; /* Set a fixed height for the input */
+}
+
+.search-button {
+    padding: 6px 10px; /* Padding for the button */
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px; /* Space between input and button */
+    height: 36px; /* Match the height of the input */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.search-button:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+
+/* Other styles remain the same */

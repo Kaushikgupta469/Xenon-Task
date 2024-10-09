@@ -1,0 +1,34 @@
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .property-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .property-item p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+  
